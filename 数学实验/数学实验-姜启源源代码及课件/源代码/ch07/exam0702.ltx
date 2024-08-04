@@ -1,0 +1,16 @@
+! 3 Warehouse, 4 Customer Transportation Problem
+! The objective
+min   6x11 + 2x12 + 6x13 + 7x14
+    + 4x21 + 9x22 + 5x23 + 3x24
+    + 8x31 + 8x32 +  x33 + 5x34
+subject to
+! The supply constraints
+2)  x11 + x12 + x13 + x14 <= 30
+3)  x21 + x22 + x23 + x24 <= 25
+4)  x31 + x32 + x33 + x34 <= 21
+! The demand constraints
+5)  x11 + x21 + x31 = 15
+6)  x12 + x22 + x32 = 17
+7)  x13 + x23 + x33 = 22
+8)  x14 + x24 + x34 = 12
+end
