@@ -1,0 +1,39 @@
+
+
+  MAX     2 X + 3 Y
+  SUBJECT TO
+        C2)   4 X + 3 Y <=   10
+        C3)   3 X + 5 Y <=   12
+  END
+
+ LP OPTIMUM FOUND AT STEP      2
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      7.454545
+
+  VARIABLE        VALUE          REDUCED COST
+         X         1.272727          0.000000
+         Y         1.636364          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+       C2)         0.000000          0.090909
+       C3)         0.000000          0.545455
+
+ NO. ITERATIONS=       2
+
+        OBJECTIVE FUNCTION VALUE
+
+        1)      7.454545
+
+  VARIABLE        VALUE          REDUCED COST
+         X         1.272727          0.000000
+         Y         1.636364          0.000000
+
+
+       ROW   SLACK OR SURPLUS     DUAL PRICES
+       C2)         0.000000          0.090909
+       C3)         0.000000          0.545455
+
+ NO. ITERATIONS=       2

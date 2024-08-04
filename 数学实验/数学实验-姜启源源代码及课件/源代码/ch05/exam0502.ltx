@@ -1,0 +1,157 @@
+
+ MIN     400 Y_A_1 + 12 INV_A_1 + 400 Y_A_2 + 12 INV_A_2
+      + 400 Y_A_3 + 12 INV_A_3 + 400 Y_A_4 + 12 INV_A_4
+      + 400 Y_A_5 + 12 INV_A_5 + 400 Y_A_6 + 12 INV_A_6
+      + 500 Y_B_1 + .6 INV_B_1 + 500 Y_B_2 + .6 INV_B_2
+      + 500 Y_B_3 + .6 INV_B_3 + 500 Y_B_4 + .6 INV_B_4
+      + 500 Y_B_5 + .6 INV_B_5 + 500 Y_B_6 + .6 INV_B_6
+      + 1000 Y_C_1 + INV_C_1 + 1000 Y_C_2 + INV_C_2
+      + 1000 Y_C_3 + INV_C_3 + 1000 Y_C_4 + INV_C_4
+      + 1000 Y_C_5 + INV_C_5 + 1000 Y_C_6 + INV_C_6
+      + 300 Y_D_1 + .04 INV_D_1 + 300 Y_D_2 + .04 INV_D_2
+      + 300 Y_D_3 + .04 INV_D_3 + 300 Y_D_4 + .04 INV_D_4
+      + 300 Y_D_5 + .04 INV_D_5 + 300 Y_D_6 + .04 INV_D_6
+      + 200 Y_E_1 + .03 INV_E_1 + 200 Y_E_2 + .03 INV_E_2
+      + 200 Y_E_3 + .03 INV_E_3 + 200 Y_E_4 + .03 INV_E_4
+      + 200 Y_E_5 + .03 INV_E_5 + 200 Y_E_6 + .03 INV_E_6
+      + 400 Y_F_1 + .04 INV_F_1 + 400 Y_F_2 + .04 INV_F_2
+      + 400 Y_F_3 + .04 INV_F_3 + 400 Y_F_4 + .04 INV_F_4
+      + 400 Y_F_5 + .04 INV_F_5 + 400 Y_F_6 + .04 INV_F_6
+      + 100 Y_G_1 + .04 INV_G_1 + 100 Y_G_2 + .04 INV_G_2
+      + 100 Y_G_3 + .04 INV_G_3 + 100 Y_G_4 + .04 INV_G_4
+      + 100 Y_G_5 + .04 INV_G_5 + 100 Y_G_6 + .04 INV_G_6
+ SUBJECT TO
+ BAL_A_2)  INV_A_1 + X_A_2 - INV_A_2 =    0
+ BAL_A_3)  INV_A_2 + X_A_3 - INV_A_3 =    100
+ BAL_A_4)  INV_A_3 + X_A_4 - INV_A_4 =    0
+ BAL_A_5)  INV_A_4 + X_A_5 - INV_A_5 =    90
+ BAL_A_6)  INV_A_5 + X_A_6 - INV_A_6 =    10
+ BAL_B_2)- 5 X_A_2 + INV_B_1 + X_B_2 - INV_B_2 =    0
+ BAL_B_3)- 5 X_A_3 + INV_B_2 + X_B_3 - INV_B_3 =    0
+ BAL_B_4)- 5 X_A_4 + INV_B_3 + X_B_4 - INV_B_4 =    0
+ BAL_B_5)- 5 X_A_5 + INV_B_4 + X_B_5 - INV_B_5 =    0
+ BAL_B_6)- 5 X_A_6 + INV_B_5 + X_B_6 - INV_B_6 =    0
+ BAL_C_2)- 7 X_A_2 + INV_C_1 + X_C_2 - INV_C_2 =    0
+ BAL_C_3)- 7 X_A_3 + INV_C_2 + X_C_3 - INV_C_3 =    0
+ BAL_C_4)- 7 X_A_4 + INV_C_3 + X_C_4 - INV_C_4 =    0
+ BAL_C_5)- 7 X_A_5 + INV_C_4 + X_C_5 - INV_C_5 =    0
+ BAL_C_6)- 7 X_A_6 + INV_C_5 + X_C_6 - INV_C_6 =    0
+ BAL_D_2)- 9 X_B_2 + INV_D_1 + X_D_2 - INV_D_2 =    0
+ BAL_D_3)- 9 X_B_3 + INV_D_2 + X_D_3 - INV_D_3 =    0
+ BAL_D_4)- 9 X_B_4 + INV_D_3 + X_D_4 - INV_D_4 =    0
+ BAL_D_5)- 9 X_B_5 + INV_D_4 + X_D_5 - INV_D_5 =    0
+ BAL_D_6)- 9 X_B_6 + INV_D_5 + X_D_6 - INV_D_6 =    0
+ BAL_E_2)- 11 X_B_2 + INV_E_1 + X_E_2 - INV_E_2 =    0
+ BAL_E_3)- 11 X_B_3 + INV_E_2 + X_E_3 - INV_E_3 =    0
+ BAL_E_4)- 11 X_B_4 + INV_E_3 + X_E_4 - INV_E_4 =    0
+ BAL_E_5)- 11 X_B_5 + INV_E_4 + X_E_5 - INV_E_5 =    0
+ BAL_E_6)- 11 X_B_6 + INV_E_5 + X_E_6 - INV_E_6 =    0
+ BAL_F_2)- 13 X_C_2 + INV_F_1 + X_F_2 - INV_F_2 =    0
+ BAL_F_3)- 13 X_C_3 + INV_F_2 + X_F_3 - INV_F_3 =    0
+ BAL_F_4)- 13 X_C_4 + INV_F_3 + X_F_4 - INV_F_4 =    0
+ BAL_F_5)- 13 X_C_5 + INV_F_4 + X_F_5 - INV_F_5 =    0
+ BAL_F_6)- 13 X_C_6 + INV_F_5 + X_F_6 - INV_F_6 =    0
+ BAL_G_2)- 15 X_C_2 + INV_G_1 + X_G_2 - INV_G_2 =    0
+ BAL_G_3)- 15 X_C_3 + INV_G_2 + X_G_3 - INV_G_3 =    0
+ BAL_G_4)- 15 X_C_4 + INV_G_3 + X_G_4 - INV_G_4 =    0
+ BAL_G_5)- 15 X_C_5 + INV_G_4 + X_G_5 - INV_G_5 =    0
+ BAL_G_6)- 15 X_C_6 + INV_G_5 + X_G_6 - INV_G_6 =    0
+ BA0_A_1)  X_A_1 - INV_A_1 =    40
+ BA0_B_1)- 5 X_A_1 + X_B_1 - INV_B_1 =    0
+ BA0_C_1)- 7 X_A_1 + X_C_1 - INV_C_1 =    0
+ BA0_D_1)- 9 X_B_1 + X_D_1 - INV_D_1 =    0
+ BA0_E_1)- 11 X_B_1 + X_E_1 - INV_E_1 =    0
+ BA0_F_1)- 13 X_C_1 + X_F_1 - INV_F_1 =    0
+ BA0_G_1)- 15 X_C_1 + X_G_1 - INV_G_1 =    0
+ CAP_1)  5 X_B_1 + 8 X_C_1 <=   10000
+ CAP_2)  5 X_B_2 + 8 X_C_2 <=   0
+ CAP_3)  5 X_B_3 + 8 X_C_3 <=   5000
+ CAP_4)  5 X_B_4 + 8 X_C_4 <=   5000
+ CAP_5)  5 X_B_5 + 8 X_C_5 <=   1000
+ CAP_6)  5 X_B_6 + 8 X_C_6 <=   1000
+ 51)  X_A_1 - 25000 Y_A_1 <=   0
+ 52)  X_A_2 - 25000 Y_A_2 <=   0
+ 53)  X_A_3 - 25000 Y_A_3 <=   0
+ 54)  X_A_4 - 25000 Y_A_4 <=   0
+ 55)  X_A_5 - 25000 Y_A_5 <=   0
+ 56)  X_A_6 - 25000 Y_A_6 <=   0
+ 57)  X_B_1 - 25000 Y_B_1 <=   0
+ 58)  X_B_2 - 25000 Y_B_2 <=   0
+ 59)  X_B_3 - 25000 Y_B_3 <=   0
+ 60)  X_B_4 - 25000 Y_B_4 <=   0
+ 61)  X_B_5 - 25000 Y_B_5 <=   0
+ 62)  X_B_6 - 25000 Y_B_6 <=   0
+ 63)  X_C_1 - 25000 Y_C_1 <=   0
+ 64)  X_C_2 - 25000 Y_C_2 <=   0
+ 65)  X_C_3 - 25000 Y_C_3 <=   0
+ 66)  X_C_4 - 25000 Y_C_4 <=   0
+ 67)  X_C_5 - 25000 Y_C_5 <=   0
+ 68)  X_C_6 - 25000 Y_C_6 <=   0
+ 69)  X_D_1 - 25000 Y_D_1 <=   0
+ 70)  X_D_2 - 25000 Y_D_2 <=   0
+ 71)  X_D_3 - 25000 Y_D_3 <=   0
+ 72)  X_D_4 - 25000 Y_D_4 <=   0
+ 73)  X_D_5 - 25000 Y_D_5 <=   0
+ 74)  X_D_6 - 25000 Y_D_6 <=   0
+ 75)  X_E_1 - 25000 Y_E_1 <=   0
+ 76)  X_E_2 - 25000 Y_E_2 <=   0
+ 77)  X_E_3 - 25000 Y_E_3 <=   0
+ 78)  X_E_4 - 25000 Y_E_4 <=   0
+ 79)  X_E_5 - 25000 Y_E_5 <=   0
+ 80)  X_E_6 - 25000 Y_E_6 <=   0
+ 81)  X_F_1 - 25000 Y_F_1 <=   0
+ 82)  X_F_2 - 25000 Y_F_2 <=   0
+ 83)  X_F_3 - 25000 Y_F_3 <=   0
+ 84)  X_F_4 - 25000 Y_F_4 <=   0
+ 85)  X_F_5 - 25000 Y_F_5 <=   0
+ 86)  X_F_6 - 25000 Y_F_6 <=   0
+ 87)  X_G_1 - 25000 Y_G_1 <=   0
+ 88)  X_G_2 - 25000 Y_G_2 <=   0
+ 89)  X_G_3 - 25000 Y_G_3 <=   0
+ 90)  X_G_4 - 25000 Y_G_4 <=   0
+ 91)  X_G_5 - 25000 Y_G_5 <=   0
+ 92)  X_G_6 - 25000 Y_G_6 <=   0
+ END
+ INT Y_A_1
+ INT Y_A_2
+ INT Y_A_3
+ INT Y_A_4
+ INT Y_A_5
+ INT Y_A_6
+ INT Y_B_1
+ INT Y_B_2
+ INT Y_B_3
+ INT Y_B_4
+ INT Y_B_5
+ INT Y_B_6
+ INT Y_C_1
+ INT Y_C_2
+ INT Y_C_3
+ INT Y_C_4
+ INT Y_C_5
+ INT Y_C_6
+ INT Y_D_1
+ INT Y_D_2
+ INT Y_D_3
+ INT Y_D_4
+ INT Y_D_5
+ INT Y_D_6
+ INT Y_E_1
+ INT Y_E_2
+ INT Y_E_3
+ INT Y_E_4
+ INT Y_E_5
+ INT Y_E_6
+ INT Y_F_1
+ INT Y_F_2
+ INT Y_F_3
+ INT Y_F_4
+ INT Y_F_5
+ INT Y_F_6
+ INT Y_G_1
+ INT Y_G_2
+ INT Y_G_3
+ INT Y_G_4
+ INT Y_G_5
+ INT Y_G_6
+

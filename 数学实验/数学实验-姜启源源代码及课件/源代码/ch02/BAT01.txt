@@ -1,0 +1,21 @@
+BAT
+ ! 将所有结果存放在文件“RESULT0201.txt”中
+ DIVE RESULT0201.txt
+ ! 从以前保存的模型文件“exam0201.lpk”中读出模型
+ RETR exam0201.lpk
+ ! 下面显示、查看这个模型
+ LOOK ALL 
+ ! 下面求解这个模型
+ GO
+ ! 回答是否进行敏感性分析
+ N
+ ! 显示解答
+ SOLU
+ ! 在屏幕上显示一段提示信息
+ PAUS 第一个模型求解成功，按R键或Resume按钮继续!
+ ! 关闭文件“RESULT0201.txt”
+ RVRT
+ ! 回到执行本命令脚本前的会话模式
+ BAT
+ ! 结束，推出本命令脚本文件
+ LEAV
