@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">计算24点游戏</string>
+    <string name="introduction_text">欢迎来到24点游戏，点击查看游戏规则按钮迅速了解24点游戏，你可选择简单模式或进阶模式参与游戏！</string>
+    <string name="game_title">24点游戏</string>
+    <string name="rule_btn">游戏规则</string>
+    <string name="easy_mode_btn">简单模式</string>
+    <string name="advance_mode_btn">进阶模式</string>
+    <string name="submit">提交</string>
+    <string name="reset">重置</string>
+    <string name="history_record">历史纪录</string>
+</resources>
