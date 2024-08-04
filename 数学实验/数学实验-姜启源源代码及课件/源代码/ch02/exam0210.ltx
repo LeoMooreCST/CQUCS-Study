@@ -1,0 +1,9 @@
+min x1+x2+lag1+lag2
+s.t.
+2) 2 x1+0.3 x2+ LAG1+  LAG2 >= 98
+3) 4 x2+0.3 x1+ LAG1-2 LAG2 >= 277
+4) x1 +   x2  < 100                                
+5) x1 - 2 x2  < 0                                      
+end 
+QCP 4 
+gin 2
